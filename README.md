@@ -1,9 +1,9 @@
-CRM Projekt für Umschulung
+CRM project for school
 
-Python und Konsole (Backend)
-CRUD Prinzip (create,read,update,delete)
+Python and console (backend)
+CRUD principle (create,read,update,delete)
 
-Erste Ziele: Projekt Struktur und Menü/Untermenüs überlegen
-Allgemeine Ziele: Robustheit, Funktionalität und lesbarer Code
+First steps: consider a structur and menus/submenus
+Overall: functionality, clean code, Errorhandling
 
-evtl. irgendwann Oberfläche bauen
+someday maybe build frontend
