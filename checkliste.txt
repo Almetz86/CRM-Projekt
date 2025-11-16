@@ -1,0 +1,47 @@
+✅ Projektstruktur
+
+ Klare Ordnerstruktur: Trenne Logik (CRUD), Daten (data), Modelle (Entities), UI (menus).
+ README.md: Kurze Anleitung zum Starten und Projektbeschreibung.
+ __init__.py in Ordnern, wenn du Pakete nutzen willst.
+
+
+✅ Code-Qualität
+
+ PEP8-Konformität: Einrückungen, Namenskonventionen (snake_case für Dateien und Funktionen).
+ Keine Logik in main.py: Nur Einstiegspunkt und Menüstart.
+ Funktionen kurz und klar: Jede Funktion macht nur eine Sache.
+ Kommentare & Docstrings: Beschreibe Funktionen und Module.
+
+
+✅ Fehlerbehandlung
+
+ Input-Validierung: Prüfe Benutzereingaben (z. B. Zahlen, Strings).
+ Try/Except für Dateioperationen: Verhindere Abstürze bei fehlenden Dateien.
+ Sinnvolle Fehlermeldungen: Nutzerfreundlich, nicht kryptisch.
+
+
+✅ Datenmanagement
+
+ Trennung von Logik und Datenzugriff: Storage-Funktionen separat.
+ JSON-Handling robust: Prüfe, ob Datei existiert, bevor du liest.
+ Backup-Strategie: Optional, aber gut für Sicherheit.
+
+
+✅ Menüführung
+
+ Klare Navigation: Hauptmenü → Untermenüs → Aktionen.
+ Rückkehr-Optionen: Immer Möglichkeit, zurückzugehen.
+ Keine Endlosschleifen ohne Exit.
+
+
+✅ Tests
+
+ Ordner tests: Nutze pytest oder unittest.
+ Test für CRUD-Funktionen: Erstelle Dummy-Daten.
+ Automatisierte Tests für Datenzugriff.
+
+
+✅ Skalierbarkeit
+
+ Modularität: Plane so, dass du später eine GUI oder API hinzufügen kannst.
+ Konfigurationsdatei: Für Pfade oder Einstellungen (z. B. config.py).
