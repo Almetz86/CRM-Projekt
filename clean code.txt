@@ -1,91 +1,49 @@
 ✅ Clean Code Basics
 
-
- Sprechende Namen
-
+Sprechende Namen
 Variablen, Funktionen und Dateien sollen klar beschreiben, was sie tun.
 Beispiel: get_customer_by_id() statt getData().
 
-
-
- Kurze Funktionen
-
+Kurze Funktionen
 Jede Funktion macht eine Sache.
 Faustregel: max. 20–30 Zeilen pro Funktion.
 
-
-
- Keine Magischen Zahlen oder Strings
-
+Keine Magischen Zahlen oder Strings
 Nutze Konstanten oder Enums statt harter Werte.
 Beispiel: MAX_RETRIES = 3.
 
-
-
- Vermeide Code-Duplikate
-
+Vermeide Code-Duplikate
 Wiederholte Logik in Funktionen auslagern.
 
-
-
- Kommentare sparsam, aber sinnvoll
-
+Kommentare sparsam, aber sinnvoll
 Erkläre Warum, nicht Was (das sollte der Code zeigen).
 Nutze Docstrings für Funktionen und Klassen.
 
-
-
-
 ✅ Struktur & Lesbarkeit
 
-
- PEP8 einhalten
-
+PEP8 einhalten
 Einrückung: 4 Spaces
 Zeilenlänge: max. 79 Zeichen
 Leerzeilen zwischen Funktionen/Klassen.
 
-
-
- Imports oben und sortiert
-
+Imports oben und sortiert
 Standardbibliotheken → Drittanbieter → eigene Module.
 
-
-
- Logik trennen
-
+Logik trennen
 Keine Business-Logik in UI oder main.py.
-
-
-
 
 ✅ Fehlerbehandlung
 
-
- Try/Except gezielt einsetzen
-
+Try/Except gezielt einsetzen
 Fange nur erwartete Fehler ab, nicht alles mit except:.
 
-
-
- Sinnvolle Fehlermeldungen
-
+Sinnvolle Fehlermeldungen
 Beispiel: raise ValueError("Customer ID must be positive").
-
-
-
 
 ✅ Testbarkeit
 
-
- Funktionen ohne Seiteneffekte
-
+Funktionen ohne Seiteneffekte
 Vermeide globale Variablen.
 Nutze Parameter und Rückgabewerte.
-
-
-
- Einfach zu testen
-
+Einfach zu testen
 Keine versteckten Abhängigkeiten.
