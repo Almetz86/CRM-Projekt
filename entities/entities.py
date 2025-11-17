@@ -9,9 +9,7 @@ def entities(x):
     elif x == 3:
         x = "tasks"
 
-    with open(r"C:\Umschulung\CRM Projekt\data\data.json","r",encoding="utf-8") as file:
+    with open(r"data\data.json","r",encoding="utf-8") as file:
         data = json.load(file)
     entity = data.get(x)
-    rahme_ein(entity)
-    from menus import CRUD_menu
-    CRUD_menu()
+    return entity

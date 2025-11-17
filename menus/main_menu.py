@@ -1,6 +1,6 @@
 from helper_functions import rahme_ein
 from entities import entities
-
+from .crud_menu import CRUD_menu
 
 def main_menu():
     while True:
@@ -12,4 +12,4 @@ def main_menu():
             rahme_ein("Program finished")
             return
 
-        entities(choice)
+        CRUD_menu(entities(choice))
