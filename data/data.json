@@ -2,7 +2,7 @@
     "customers": [
         {
             "id": 1,
-            "name": "alex",
+            "name": "alexander",
             "email": "alex@mail.de",
             "phone": "123 456789",
             "address": "KM Street 16,35684 Frohnhausen ",
@@ -25,6 +25,18 @@
             "task": "Call Fatih for an arrangement",
             "note": "Fatihs number is 0987 654321",
             "created_at": "21-11-2025 19:49:44"
+        },
+        {
+            "id": 3,
+            "task": "test",
+            "note": "test2",
+            "created_at": "21-11-2025 21:32:35"
+        },
+        {
+            "id": 2,
+            "task": "test",
+            "note": "test",
+            "created_at": "21-11-2025 21:33:14"
         }
     ]
 }

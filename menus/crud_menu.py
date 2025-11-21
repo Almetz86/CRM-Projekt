@@ -17,8 +17,8 @@ def CRUD_menu(x):
             read(x[1])
 
         elif choice == 3:
-            update(x)
+            update(x[0],x[1])
 
         elif choice == 4:
-            delete(x)
+            delete(x[1])
 
