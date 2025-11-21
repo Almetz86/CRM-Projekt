@@ -1,1 +1,1 @@
-from .helper_funcs import rahme_ein
+from .helper_funcs import rahme_ein,write,get_id

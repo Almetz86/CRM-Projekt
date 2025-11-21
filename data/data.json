@@ -13,7 +13,7 @@
         {
             "id": 1,
             "name": "Fatih",
-            "email": "Fatih@ausländer.tür",
+            "email": "fatih@email.tr",
             "phone": "0987 654321",
             "address": "im Ländle 5, 01234 Tübingen",
             "created_at": "21-11-2025 19:48:43"
@@ -25,18 +25,6 @@
             "task": "Call Fatih for an arrangement",
             "note": "Fatihs number is 0987 654321",
             "created_at": "21-11-2025 19:49:44"
-        },
-        {
-            "id": 3,
-            "task": "test",
-            "note": "test2",
-            "created_at": "21-11-2025 21:32:35"
-        },
-        {
-            "id": 2,
-            "task": "test",
-            "note": "test",
-            "created_at": "21-11-2025 21:33:14"
         }
     ]
 }
