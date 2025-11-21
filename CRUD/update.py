@@ -1,4 +1,4 @@
 
 
-def update():
+def update(x):
     pass

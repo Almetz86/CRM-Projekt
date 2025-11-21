@@ -1,20 +1,33 @@
 {
     "costumers":[
         {
-            "id": 1,
+            "id": 0,
             "name": "abc",
-            "email": "test@email.com"
-        },
-        {
-            "id": 2,
-            "name": "def",
-            "email": "jdjfmckdj@email.com"
+            "email": "test@email.com",
+            "phone": "+49 0123 456789",
+            "adress": "street 1 , 01234 City",
+            "created_at": "21-11-2025 11:35:34"
         }
     ],
     "leads":[
-
+        {
+            "id": 0,
+            "name": "irgdnwer",
+            "email": "blabla@test.de",
+            "phone": "+49 0123 456789",
+            "adress": "street 1 , 01234 City",
+            "created_at": "21-11-2025 10:37:34"
+        }
     ],
     "tasks":[
-        
+        {
+            "id": 0,
+            "name": "nochwer",
+            "email": "test@test.de",
+            "phone": "+49 0123 456789",
+            "address":"street 3 , 02468 city 3",
+            "task": "write email",
+            "created_at": "21-11-2025 11:37:34"
+        }
     ]
 }

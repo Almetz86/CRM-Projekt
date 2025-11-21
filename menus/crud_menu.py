@@ -1,6 +1,6 @@
 import json
 from helper_functions import rahme_ein
-from menus.crud_sub_menu import crud_sub_menu
+from CRUD import create,read,update,delete
 
 def CRUD_menu(x):
     while True:
@@ -10,5 +10,15 @@ def CRUD_menu(x):
         if choice == 0:
             return
 
-        crud_sub_menu(x,choice)
+        elif choice == 1:
+            create(x[0],x[1])
+
+        elif choice == 2:
+            read(x[1])
+
+        elif choice == 3:
+            update(x)
+
+        elif choice == 4:
+            delete(x)
 

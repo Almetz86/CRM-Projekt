@@ -1,18 +1,24 @@
 import json
+from datetime import datetime
 from helper_functions import rahme_ein
+from data import write,get_id
 
-def create(x):
-    for i in x:
-        keys = list(i.keys())
-        break
+def create(x,y):
     new_entity = {}
-    for key in keys:
-        if key.lower() != "id":
+
+    for key in x:
+        if key == "created_at":
+            continue
+
+        elif key != "id":
             rahme_ein(f"Enter the new {key}")
             value = input("> ")
             new_entity[key] = value
+
         else:
-            value = max([a[key] for a in x]) + 1
+            value = get_id(y)
             new_entity[key] = value
-    x.append(new_entity)
-    rahme_ein(json.dumps(x,indent=4,ensure_ascii=False))
+
+    timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+    new_entity["created_at"] = timestamp
+    write(new_entity,y)

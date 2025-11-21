@@ -1,20 +1,30 @@
 {
-    "costumers":[
+    "customers": [
         {
             "id": 1,
-            "name": "abc",
-            "email": "test@email.com"
-        },
-        {
-            "id": 2,
-            "name": "def",
-            "email": "jdjfmckdj@email.com"
+            "name": "alex",
+            "email": "alex@mail.de",
+            "phone": "123 456789",
+            "address": "KM Street 16,35684 Frohnhausen ",
+            "created_at": "21-11-2025 19:46:45"
         }
     ],
-    "leads":[
-
+    "leads": [
+        {
+            "id": 1,
+            "name": "Fatih",
+            "email": "Fatih@ausländer.tür",
+            "phone": "0987 654321",
+            "address": "im Ländle 5, 01234 Tübingen",
+            "created_at": "21-11-2025 19:48:43"
+        }
     ],
-    "tasks":[
-        
+    "tasks": [
+        {
+            "id": 1,
+            "task": "Call Fatih for an arrangement",
+            "note": "Fatihs number is 0987 654321",
+            "created_at": "21-11-2025 19:49:44"
+        }
     ]
 }
