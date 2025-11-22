@@ -5,7 +5,11 @@ from CRUD import create,read,update,delete
 def CRUD_menu(x):
     while True:
         rahme_ein("0 > Exit\n1 > create\n2 > read\n3 > update\n4 > delete")
-        choice = int(input("> "))
+        try:
+            choice = int(input("> "))
+        except ValueError:
+            rahme_ein("only full numbers are allowed")
+            continue
 
         if choice == 0:
             return
@@ -21,4 +25,7 @@ def CRUD_menu(x):
 
         elif choice == 4:
             delete(x[1])
+        
+        else:
+            rahme_ein("only numbers between 0 and 4 are allowed")
 
